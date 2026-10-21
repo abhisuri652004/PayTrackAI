@@ -1,0 +1,44 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+**/*secret*
+**/*credential*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+coverage/
+
+# Local databases and database backups
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.dump
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE and local configuration
+.vscode/
+.idea/
+
+# Local environment and upload files
+uploads/
